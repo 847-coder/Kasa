@@ -1,0 +1,39 @@
+.card-container {
+    width: 100%;
+    max-width: 1240px;
+
+    margin: 43px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+    row-gap: 50px;
+
+    padding: 56px 50px;
+    box-sizing: border-box;
+
+    background-color: #F6F6F6;
+    border-radius: 25px;
+}
+
+
+@media (max-width: 768px) {
+
+    .home {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .card-container {
+        margin-top: 22px;
+        margin-bottom: 27px;
+
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+
+        padding: 0;
+
+        background-color: transparent;
+        border-radius: 0;
+    }
+}

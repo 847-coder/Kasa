@@ -1,0 +1,11 @@
+.about-page {
+    .about-collapses {
+        width: 100%;
+        max-width: 1023px;
+        margin: 38px auto;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

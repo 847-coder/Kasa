@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1240px;
     height: 68px;
-    margin: 0 auto 27px;
+    margin: 20px auto 27px;
 
     display: flex;
     align-items: center;
@@ -29,19 +29,22 @@
             &:hover {
                 text-decoration: underline;
             }
+
+            &.active {
+                text-decoration: underline;
+            }
         }
     }
 }
 
 
 @media (max-width: 768px) {
-
     .header {
         width: calc(100% - 40px);
         max-width: 335px;
         height: 46.88px;
 
-        margin: 0 auto 27px;
+        margin: 20px auto 27px;
         padding: 0;
 
         display: flex;
@@ -51,13 +54,9 @@
         img {
             width: 145px;
             height: 46.88px;
-            margin-left: -10px;
         }
 
         nav {
-            width: 190px;
-            height: 17px;
-
             display: flex;
             align-items: center;
             justify-content: flex-end;
@@ -67,6 +66,7 @@
                 font-size: 12px;
                 line-height: 143%;
                 text-transform: uppercase;
+                white-space: nowrap;
             }
         }
     }

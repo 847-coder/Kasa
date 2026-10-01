@@ -3,9 +3,26 @@
         width: 100%;
         max-width: 1023px;
         margin: 38px auto;
-        
+
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-page {
+        .banner {
+            width: calc(100% - 40px);
+            max-width: 335px;
+            margin: 0 auto;
+        }
+
+        .about-collapses {
+            width: calc(100% - 40px);
+            max-width: 335px;
+            margin: 20px auto;
+            gap: 20px;
+        }
     }
 }
